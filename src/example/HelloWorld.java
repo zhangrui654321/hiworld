@@ -13,7 +13,7 @@ public class HelloWorld {
   }
   public static void main(String[] argv) {
     Object implementor = new HelloWorld ();
-    String address = "http://localhost:9000/HelloWorlds";
+    String address = "http://localhost:9000/HelloWorldss";
     Endpoint.publish(address, implementor);
   }
 }
